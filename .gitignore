@@ -1,0 +1,19 @@
+# Python environment and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Visual Studio Code settings
+.vscode/
+
+# Project-specific data and outputs
+# (We ignore these to keep your personal logs and large images off GitHub)
+Attendance.csv
+Known_Faces/cleaned_shivang.jpg
+
+# OS-specific files
+.DS_Store
+Thumbs.db

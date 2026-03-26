@@ -1,0 +1,11 @@
+# Core AI and Computer Vision
+opencv-python
+face_recognition
+cmake
+
+# Data Handling (Constraint added for Dlib/Numpy 2.0 compatibility)
+numpy<2.0.0
+Pillow
+
+# Voice Feedback
+pyttsx3
