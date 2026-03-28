@@ -21,3 +21,9 @@ Attendance.csv
 .idea/
 .DS_Store
 Thumbs.db
+
+# --- Biometric Data (Privacy) ---
+# Ignore all real face images, but keep the folder
+Known_Faces/*.jpg
+Known_Faces/*.jpeg
+Known_Faces/*.png
