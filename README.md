@@ -49,6 +49,12 @@ To use the automated email reporter without exposing your credentials:
    RECEIVER_EMAIL=professor_email@vitbhopal.ac.in
    ```
 
+### 4. Add Your Biometric Data (Crucial Step)
+For privacy reasons, this repository does not include real facial data. To make the system work:
+1. Open the `Known_Faces/` folder.
+2. Drop in clear, well-lit `.jpg` or `.jpeg` photos of the people you want to recognize.
+3. Name the file exactly what you want the system to call them (e.g., `Parth.jpg` or `Professor_Smith.jpg`).
+
 ---
 
 ## 📂 Project Structure
