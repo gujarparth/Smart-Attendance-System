@@ -1,11 +1,17 @@
-# Core AI and Computer Vision
-opencv-python
-face_recognition
 cmake
 
-# Data Handling (Constraint added for Dlib/Numpy 2.0 compatibility)
-numpy<2.0.0
+# --- 2. The AI Engine (Pre-compiled for Windows & Python 3.11) ---
+# Bypasses the need for Visual Studio C++ Build Tools
+https://github.com/z-mahmud22/Dlib_Windows_Python3.x/raw/main/dlib-19.24.1-cp311-cp311-win_amd64.whl
+face_recognition
+
+# --- 3. Computer Vision & Data Handling ---
+opencv-python
 Pillow
 
-# Voice Feedback
-pyttsx3
+# Force legacy Numpy to prevent the Numpy 2.0 C++ memory crash
+numpy<2.0.0
+
+# --- 4. User Experience & Notifications ---
+# Offline Text-to-Speech engine
+pyttsx
